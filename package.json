@@ -1,0 +1,28 @@
+{
+  "name": "fashiont-website",
+  "version": "1.0.0",
+  "description": "website template ",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test",
+    "sass-watch": "sass --watch sass:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Romkin7/fashion-website.git"
+  },
+  "keywords": [
+    "HTML",
+    "SASS",
+    "Javascript"
+  ],
+  "author": "Roman Tuomisto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Romkin7/fashion-website/issues"
+  },
+  "homepage": "https://github.com/Romkin7/fashion-website#readme",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
