@@ -1,0 +1,20 @@
+@import "./colors.scss";
+@import "./variables.scss";
+
+.button {
+  background-color: $peach;
+  color: $white;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  font-weight: 400;
+  line-height: 1.2rem;
+  border: 1px solid $peach;
+  border-radius: 6px;
+  padding: 1rem;
+  transition: 150ms ease background-color;
+  transition: 150ms ease border-color;
+  &:hover {
+    background-color: $peachDark;
+    border-color: $peachDark;
+  }
+}

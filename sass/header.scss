@@ -18,7 +18,7 @@
     line-height: 3rem;
     color: $black;
     text-decoration: none;
-    font-size: $fontSize;
+    font-size: calc(#{$fontSize} + 2px);
     letter-spacing: 1.1px;
     transition: 150ms ease color;
     &:hover {
