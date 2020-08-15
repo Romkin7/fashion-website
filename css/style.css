@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+/** hero background image */
+/** Colors for template */
+/** Black & white, shades of grey */
+/** Yeallow & orange */
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html,
+body {
+  font-size: 16px;
+  font-family: "PT Sans", sans-serif; }
+
+main {
+  min-height: 160vh;
+  height: auto;
+  width: 100%;
+  position: relative; }
+
+/** Colors for template */
+/** Black & white, shades of grey */
+/** Yeallow & orange */
+/** hero background image */
+.header {
+  padding: 0.5rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 4rem;
+  background-color: transparent;
+  position: fixed;
+  z-index: 10;
+  box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.2); }
+  .header_link {
+    height: 3rem;
+    line-height: 3rem;
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+    letter-spacing: 1.1px;
+    transition: 150ms ease color; }
+    .header_link:hover {
+      font-weight: bold;
+      letter-spacing: 1px; }
+    .header_link:active, .header_link__active {
+      color: #ea9679;
+      border-bottom: 1px solid #ea9679;
+      letter-spacing: 1px; }
+
+/** Colors for template */
+/** Black & white, shades of grey */
+/** Yeallow & orange */
+/** hero background image */
+.hero {
+  width: 100%;
+  position: static;
+  height: 100vh; }
+  .hero_container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .hero_container__heading1 {
+      font-family: "Great Vibes", cursive;
+      font-size: 4rem;
+      letter-spacing: 1.2px;
+      line-height: 1.5em;
+      font-weight: 300; }
+    .hero_container__leadIn {
+      font-size: 1.2rem;
+      color: rgba(0, 0, 0, 0.8);
+      letter-spacing: 1px;
+      font-weight: 400; }
+  .hero_backgroundImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    background-image: url("https://mettiforssell.com/wp-content/uploads/2020/01/MettiForssell-cover-color.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 5%;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.2); }
+
+/** Colors for template */
+/** Black & white, shades of grey */
+/** Yeallow & orange */
+/** hero background image */
+.about {
+  position: static;
+  padding: 0 8rem;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap; }
+  .about_container {
+    width: 50%;
+    padding: 4rem 2rem 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .about_container__image {
+      max-width: 100%;
+      box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.2); }
+    .about_container__heading2 {
+      font-family: "Great Vibes", cursive;
+      font-weight: 300;
+      font-size: 3rem;
+      letter-spacing: 1.2px;
+      line-height: 3rem;
+      margin: 1rem 0;
+      text-align: center; }
+
+/** Colors for template */
+/** Black & white, shades of grey */
+/** Yeallow & orange */
+/** hero background image */
+.footer {
+  border-top: 1px groove rgba(67, 67, 67, 0.6);
+  height: 14rem; }
+  .footer_container {
+    width: 50%;
+    height: 14rem;
+    padding: 50px 16px 16px 16px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; }
+    .footer_container__socialLinks {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: baseline;
+      width: 100%; }
+      .footer_container__socialLinks___link {
+        line-height: 1.5rem;
+        font-size: 1.2rem;
+        color: #434343;
+        margin: 0 0.5rem;
+        transition: 150ms ease color; }
+        .footer_container__socialLinks___link:hover {
+          color: #ea9679; }
+    .footer_container__heading5 {
+      font-size: 2.5rem;
+      font-weight: 300;
+      line-height: 2.5rem;
+      letter-spacing: 1.2px;
+      font-family: "Great Vibes", cursive;
+      margin: 0.7rem 0; }
