@@ -1,4 +1,4 @@
-# Fashion Wesite
+# Fashion Website
 
 Beautiful Fashion website template
 
