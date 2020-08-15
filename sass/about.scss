@@ -1,0 +1,33 @@
+@import "./colors.scss";
+@import "./variables.scss";
+
+.about {
+  position: static;
+  padding: 0 8rem;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  &_container {
+    width: 50%;
+    padding: 4rem 2rem 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &__image {
+      max-width: 100%;
+      box-shadow: 0 0 4px 2px rgba($black, 0.2);
+    }
+    &__heading2 {
+      font-family: $greatVibes;
+      font-weight: 300;
+      font-size: 3rem;
+      letter-spacing: 1.2px;
+      line-height: 3rem;
+      margin: 1rem 0;
+      text-align: center;
+    }
+  }
+}

@@ -1,0 +1,40 @@
+@import "./colors.scss";
+@import "./variables.scss";
+.hero {
+  width: 100%;
+  position: static;
+  height: 100vh;
+  &_container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &__heading1 {
+      font-family: $greatVibes;
+      font-size: 4rem;
+      letter-spacing: 1.2px;
+      line-height: 1.5em;
+      font-weight: 300;
+    }
+    &__leadIn {
+      font-size: 1.2rem;
+      color: rgba($black, 0.8);
+      letter-spacing: 1px;
+      font-weight: 400;
+    }
+  }
+  &_backgroundImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    background-image: url($heroBackground);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 5%;
+    box-shadow: 0 0 2px 2px rgba($black, 0.2);
+  }
+}
