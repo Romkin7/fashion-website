@@ -2,10 +2,14 @@
 
 Beautiful Fashion website template
 
+Implements Bem with Sass and own custom CSS.
+
 ## Visit Website
+
+[https://relaxed-brown-70e098.netlify.app/](https://relaxed-brown-70e098.netlify.app/)
 
 Inspired by:
 
-[git@github.com:Romkin7/fashion-website.git](git@github.com:Romkin7/fashion-website.git)
+[https://mettiforssell.com/](https://mettiforssell.com/)
 
-By: Roman Tuomisto
+Designed By: Roman Tuomisto
