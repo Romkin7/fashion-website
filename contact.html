@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fashion Website</title>
+    <script
+      src="https://kit.fontawesome.com/00a6045a4a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a class="header_link" href="index.html">Home</a>
+      <a class="header_link" href="#about">About me</a>
+      <a class="header_link" href="#blog">Blog</a>
+      <a class="header_link header_link__active" href="contact.html">Contact</a>
+    </header>
+    <main>
+      <section class="contact">
+        <form class="contact_form">
+          <div class="contact_form__header">
+            <h2>Contact me</h2>
+            <p>I'm always here to help</p>
+          </div>
+          <div class="contact_form__container">
+            <div class="contact_form__container___half">
+              <label for="name">First- & Lastname *</label>
+              <input
+                class="input"
+                type="text"
+                id="name"
+                name="name"
+                placeholder="First- & Lastname *"
+                required
+              />
+            </div>
+            <div class="contact_form__container___half">
+              <label for="email">Email *</label>
+              <input
+                class="input"
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Email *"
+                required
+              />
+            </div>
+          </div>
+          <div class="contact_form__container">
+            <div>
+              <label for="message">Message *</label>
+              <textarea
+                class="input"
+                rows="5"
+                name="message"
+                id="message"
+                required
+              ></textarea>
+            </div>
+          </div>
+          <div class="contact_form__container">
+            <div>
+              <button type="submit" class="button">Send contact form</button>
+            </div>
+          </div>
+        </form>
+        <div class="contact_imageContainer">
+          <img
+            src="https://mettiforssell.com/wp-content/uploads/2020/07/valkoinenpitkämekko1-9195-674x900.jpg"
+            alt="Evelina Muljar, ota yhteyttä"
+          />
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer_container">
+        <div class="footer_container__socialLinks">
+          <a
+            class="footer_container__socialLinks___link"
+            href="www.facebook.com"
+            ><i class="fa fa-facebook" aria-label="true"></i
+          ></a>
+          <a
+            class="footer_container__socialLinks___link"
+            href="www.instagram.com"
+            ><i class="fa fa-instagram" aria-label="true"></i
+          ></a>
+          <a class="footer_container__socialLinks___link" href="favorite"
+            ><i class="fa fa-heart" aria-label="true"></i
+          ></a>
+          <a class="footer_container__socialLinks___link" href="rss feed"
+            ><i class="fas fa-rss" aria-label="true"></i
+          ></a>
+        </div>
+        <h5 class="footer_container__heading5">Evelina Muljar</h5>
+        <p>All Rights Reserved © 2020</p>
+        <p><e>Designed by: Evelina Muljar</e></p>
+      </div>
+    </footer>
+  </body>
+
+  <script src="js/app.js"></script>
+</html>

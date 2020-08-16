@@ -1,0 +1,26 @@
+@import "./colors.scss";
+@import "./variables.scss";
+
+.input {
+  padding: 1rem;
+  font-size: calc(#{$fontSize} + 1px);
+  font-weight: 400;
+  line-height: calc(#{$fontSize} + 1px);
+  letter-spacing: 1px;
+  color: $darkGrey;
+  border-radius: 6px;
+  box-shadow: 0 0 0 1px $darkGrey;
+  border: none;
+  transition: 150ms ease box-shadow;
+  &:hover {
+    box-shadow: 0 0 0 2px $darkGrey;
+  }
+  &:active {
+    box-shadow: 0 0 0 2px $peachDark;
+  }
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px $peachDark;
+    /** box-shadow: 0 0 0 2px $peachDark, 0 0 0 4px $white, 0 0 0 8px $darkBlue; */
+  }
+}

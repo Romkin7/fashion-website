@@ -1,4 +1,5 @@
 var linkTags = document.querySelectorAll(".header_link");
+
 linkTags.forEach((linkTag) => {
   linkTag.addEventListener("click", function () {
     removeActiveClass();

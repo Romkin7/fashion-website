@@ -1,0 +1,48 @@
+@import "./colors.scss";
+@import "./variables.scss";
+
+.contact {
+  position: static;
+  width: 100%;
+  min-height: 100vh;
+  padding: 8rem 8rem 4rem 8rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  &_imageContainer {
+    padding: 2rem;
+    width: 40%;
+    img {
+      max-width: 100%;
+    }
+  }
+  &_form {
+    padding: 2rem;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__container {
+      width: 100%;
+      margin-top: 0.5rem;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      div {
+        padding: 1rem;
+        width: 100%;
+        textarea {
+          width: 100%;
+        }
+      }
+      &___half {
+        width: 50%;
+        padding: 0 0.5rem;
+        input {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
