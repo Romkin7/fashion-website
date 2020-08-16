@@ -1,0 +1,12 @@
+@import "./colors.scss";
+@import "./variables.scss";
+
+.blog {
+  width: 100%;
+  position: static;
+  padding: 8rem 4rem 4rem 4rem;
+  &_container {
+    display: flex;
+    flex-direction: column;
+  }
+}
