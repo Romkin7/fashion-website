@@ -212,10 +212,45 @@ label {
 .blog {
   width: 100%;
   position: static;
-  padding: 8rem 4rem 4rem 4rem; }
+  padding: 8rem 4rem 4rem 4rem;
+  height: auto; }
   .blog_container {
     display: flex;
     flex-direction: column; }
+    .blog_container__wrapper {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap; }
+      .blog_container__wrapper:first-child {
+        justify-content: center; }
+      .blog_container__wrapper___heading {
+        text-align: center; }
+      .blog_container__wrapper___item {
+        flex-basis: 24%;
+        margin-left: 10px;
+        margin-top: 10px; }
+        .blog_container__wrapper___item img {
+          max-width: 100%; }
+        .blog_container__wrapper___item____headings {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          align-items: center;
+          height: 4rem; }
+          .blog_container__wrapper___item____headings h4 {
+            font-size: 1.4rem;
+            line-height: 1.4rem;
+            letter-spacing: 1px;
+            font-weight: 400;
+            color: #434343; }
+          .blog_container__wrapper___item____headings p {
+            font-size: 1rem;
+            line-height: 1rem;
+            letter-spacing: 1px;
+            font-weight: 400;
+            color: #434343; }
 
 /** Colors for template */
 /** Black & white, shades of grey */
